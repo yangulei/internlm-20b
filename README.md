@@ -21,7 +21,7 @@ pipeline_tag: text-generation
 
 [![evaluation](https://github.com/InternLM/InternLM/assets/22529082/f80a2a58-5ddf-471a-8da4-32ab65c8fd3b)](https://github.com/internLM/OpenCompass/)
 
-[🤔Reporting Issues](https://github.com/InternLM/InternLM/issues/new)
+[💻Github Repo](https://github.com/InternLM/InternLM) • [🤔Reporting Issues](https://github.com/InternLM/InternLM/issues/new)
 
 </div>
 
