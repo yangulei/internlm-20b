@@ -73,7 +73,7 @@ The table below compares the performance of mainstream open-source models on som
 Overall, InternLM-20B comprehensively outperforms open-source models in the 13B parameter range in terms of overall capabilities, and on inference evaluation sets, it approaches or even surpasses the performance of Llama-65B.
 
 ## Import from Transformers
-To load the InternLM 7B Chat model using Transformers, use the following code:
+To load the InternLM 20B model using Transformers, use the following code:
 ```python
 >>> from transformers import AutoTokenizer, AutoModelForCausalLM
 >>> tokenizer = AutoTokenizer.from_pretrained("internlm/internlm-20b", trust_remote_code=True)
