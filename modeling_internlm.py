@@ -769,9 +769,7 @@ class InternLMForCausalLM(InternLMPreTrainedModel):
     def build_inputs(self, tokenizer, query: str, history: List[Tuple[str, str]] = []):
         prompt = ""
         for record in history:
-            prompt += f"""<s><|User|>:{record[0]}<eoh>\n<|Bot|>:{record[1]}<eoa>\n"""
-        if len(prompt) == 0:
-            prompt += "<s>"
+            prompt += f"""<|User|>:{record[0]}<eoh>\n<|Bot|>:{record[1]}<eoa>\n"""
         prompt += f"""<|User|>:{query}<eoh>\n<|Bot|>:"""
         return tokenizer([prompt], return_tensors="pt")
     
